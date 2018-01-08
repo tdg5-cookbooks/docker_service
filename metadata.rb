@@ -8,7 +8,8 @@ version           "0.0.1"
 
 recipe "docker_service", "Install and run docker service."
 
-depends "docker", "~> 2.0"
+depends "chef-apt-docker", "~> 2.0"
+depends "docker", ">= 2.13.0"
 
 supports "debian"
 supports "ubuntu"
