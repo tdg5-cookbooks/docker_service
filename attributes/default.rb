@@ -1,1 +1,1 @@
-default["docker_service"]["package_version"] = "17.12.0"
+default["docker_service"]["package_version"] = "18.03.1"

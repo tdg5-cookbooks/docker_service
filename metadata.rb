@@ -4,12 +4,12 @@ maintainer_email  "dannyguinther@gmail.com"
 license           "MIT"
 description       "Installs and manages the docker service"
 long_description  "Installs and manages the docker service"
-version           "0.0.1"
+version           "0.1.0"
 
 recipe "docker_service", "Install and run docker service."
 
 depends "chef-apt-docker", "~> 2.0"
-depends "docker", ">= 2.13.0"
+depends "docker", "~> 4.4.0"
 
 supports "debian"
 supports "ubuntu"
